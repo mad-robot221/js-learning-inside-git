@@ -18,7 +18,19 @@
 
 // chai()
 
-const addTwo = (num1 , num2) => num1 + num2 
-//implecite return
+// const addTwo = (num1 , num2) => num1 + num2 
+// //implecite return
 
- console.log(addTwo(4 ,5))
+//  console.log(addTwo(4 ,5)
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// IIFE
+
+// (function chai() {
+//     console.log(`DB CONECTED`);
+// })();
+
+// ( (name) => {
+//     console.log(`${name} is connection to the database`);
+    
+// })("Rabbi")
